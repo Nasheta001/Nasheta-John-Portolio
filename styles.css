@@ -1,0 +1,176 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000; /* Black letters */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #28a745; /* Green background */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+header #branding h1 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Showcase styles */
+#showcase {
+    min-height: 400px;
+    background: url('images/casino-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#showcase h1 {
+    margin-top: 0;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Content section styles */
+.content {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.content .sample, .content .article {
+    margin-bottom: 20px;
+}
+
+.content .sample h3, .content .article h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.content .sample p, .content .article p {
+    line-height: 1.6em;
+    margin: 10px 0;
+}
+
+.content .sample i {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* White background for sample section */
+.white-background {
+    background: #fff;
+}
+
+/* Banner styles */
+#banners .banner {
+    margin-bottom: 20px;
+}
+
+#banners .banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact section styles */
+#contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#contact a {
+    color: #000;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Social icons styles */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #77aaff;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
